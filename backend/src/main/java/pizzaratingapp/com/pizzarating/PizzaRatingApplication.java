@@ -1,13 +1,13 @@
-package pizzaratingapp.com.example.demo;
+package pizzaratingapp.com.pizzarating;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class PizzaRatingApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(PizzaRatingApplication.class, args);
 	}
 
 }
