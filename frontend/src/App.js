@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import "./App.css";
-import Album from "./components/Album";
 import Home from './components/Home';
 
-import axios from "axios";
+// import axios from "axios";
 
 class App extends Component {
   // constructor() {
