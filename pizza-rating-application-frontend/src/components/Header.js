@@ -1,10 +1,10 @@
 import "../index.css";
-import PropTypes from "prop-types";
+
 
 const Header = ({ title }) => {
   return (
-    <header>
-      <div>
+    <header id="header">
+      <div className="container header__container">
         <h1>{title}</h1>
         {/* <img src={HeaderImage} alt="picture of the couple" /> */}
         <p>
@@ -22,8 +22,5 @@ Header.defaultProps = {
   title: "Sliceadelphia",
 };
 
-Header.propTypes = {
-  title: PropTypes.string,
-};
 
 export default Header;
